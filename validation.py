@@ -256,13 +256,13 @@ if __name__ == "__main__":
     datasetter=['datasets/banknote_authentication.data','datasets/car.data','datasets/mammographic_masses.data','datasets/iris.data','datasets/kr-vs-kp.data','datasets/vertebra.data','datasets/zoo.data','datasets/horse-colic.data']
     datasetternames=['datasets/banknote_authentication.names','datasets/car.names','datasets/mammographic_masses.names','datasets/iris.names','datasets/kr-vs-kp.names','datasets/vertebra.names','datasets/zoo.names','datasets/horse-colic.names']
 
-    test_data_path = datasetter[5]
-    test_scheme_path = datasetternames[5]
+    test_data_path = datasetter[7]
+    test_scheme_path = datasetternames[7]
 
 
 
     # just choose one mode to experiment by removing one line comment and running
-    cross_validate_m1_without_prune(test_data_path, test_scheme_path)
+    #cross_validate_m1_without_prune(test_data_path, test_scheme_path)
     #cross_validate_m1_with_prune(test_data_path, test_scheme_path)
-    #cross_validate_m2_without_prune(test_data_path, test_scheme_path)
+    cross_validate_m2_without_prune(test_data_path, test_scheme_path)
     #cross_validate_m1_with_prune(test_data_path, test_scheme_path)
